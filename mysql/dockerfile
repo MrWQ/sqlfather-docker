@@ -1,0 +1,12 @@
+FROM mysql:5.7.25
+
+# allow no password
+ENV MYSQL_ALLOW_EMPTY_PASSWORD yes
+
+# copy file into container
+COPY setup.sh /mysql/setup.sh
+COPY create_table.sql /mysql/create_table.sql
+
+
+# exec these command when container start up
+CMD ["sh", "/mysql/setup.sh"]
