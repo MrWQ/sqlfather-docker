@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk=self.webpackChunk||[]).push([[359],{50321:function(c,n,s){s.r(n);var t=s(48086),e=s(18036),u=s(86074);n.default=function(){var a=(0,e.useAccess)(),r=a.canUser;return r?(0,u.jsx)(e.Outlet,{}):(t.ZP.warning("\u8BF7\u5148\u767B\u5F55"),(0,u.jsx)(e.Navigate,{to:"/user/login",replace:!0}))}}}]);
