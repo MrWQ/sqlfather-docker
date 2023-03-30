@@ -13,6 +13,4 @@ npm run build
 ```
 3.然后使用nginx直接运行
 
-这一步使用docker
-
 
